@@ -177,7 +177,7 @@ p {
 ===============================================================*/
 
 #about-bg-diagonal {
-        width: 60%;
+        width: 55%;
         height: 700px;
         float: right;
         background-image: url(../images/bg-about.jpeg);
@@ -211,4 +211,13 @@ p {
 
 #about-description p {
     margin-bottom: 30px;
+}
+
+/*==============================================================
+                    WORK SECTION
+===============================================================*/
+
+.row .no-gutters {
+    padding-left: 0;
+    padding-right: 0;
 }
