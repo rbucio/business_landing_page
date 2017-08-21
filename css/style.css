@@ -19,6 +19,8 @@ body {
     font-family: 'Roboto Condense', sans-serif;
 }
 
+h3 { text-transform: uppercase; }
+
 /*==============================================================
                     HOME
 ===============================================================*/
@@ -28,5 +30,69 @@ body {
     background-image: url("../images/bg-home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom center;
 }
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#home-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#home-heading h3 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 0px 0px 25px #0c0c0c;
+    margin: 20px 0;
+}
+
+/*==============================================================
+                    PARALLAX ( general )
+===============================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*==============================================================
+                    BUTTONS ( general )
+===============================================================*/
+
+.btn-general {
+    border: 2px solid #fff;
+    border-radius: 0;
+    padding: 12px 26px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+/*==============================================================
+                    ANIMATE
+===============================================================*/
+
+#home-cover, #home-heading, #home-btn { animation-duration: .5s }
+#home-cover { animation-delay: .1s; }
+#home-heading { animation-delay: .5s; }
+#home-btn { animation-delay: 1s; }
