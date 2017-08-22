@@ -10,4 +10,13 @@ $(document).ready(function() {
             enabled: true
         }
     })
+
+    //owl carousel
+    $('#team-members').owlCarousel({
+        item: 3,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
 });
