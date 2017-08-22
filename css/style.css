@@ -56,7 +56,7 @@ p {
     color: #fff;
     font-size: 55px;
     font-weight: 700;
-    text-shadow: 3px 3px #0c0c0c;
+    text-shadow: 1px 1px #0c0c0c;
     margin: 20px 0;
 }
 
@@ -449,4 +449,91 @@ ul.pricing-specs li p {
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 0;
+}
+
+/*==============================================================
+                    FOOTER
+===============================================================*/
+
+footer {
+    background-color: #41464b;
+    padding: 50px;
+}
+
+#contact h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+address {
+    color: #fff;
+}
+
+address strong, #phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+.social-list .icon-white {
+    color: #fff;
+}
+
+.social-list .icon-white:hover {
+    color: #34c6d3;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#footer-bottom {
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    color: #fff;
+    margin: 0;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #34c6d3;
 }
