@@ -129,12 +129,17 @@ p {
     margin: 0 0 30px 0;
 }
 
+.content-title-white h3 {
+    color: #fff;
+}
+
 .content-title-underline {
     width: 30px;
     height: 3px;
     background-color: #34c6d3;
     margin: 0 auto 30px auto;
 }
+
 
 /*==============================================================
                     SERVICES
@@ -290,4 +295,67 @@ h4.team-member-designation {
 
 .owl-carousel .owl-item img {
     height: 380px;
+}
+
+/*==============================================================
+                    TESTIMONIAL SECTION
+===============================================================*/
+
+#testimonials-cover {
+    background-color: #000;
+}
+
+#customers-testimonials {
+    padding: 50px 0;
+}
+
+.testimonial img {
+    max-width: 125px;
+    max-height: 125px;
+    margin: 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    position: relative;
+}
+
+.testimonial blockquote p {
+    color: #fff;
+    padding: 6px 25px;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: '\201c';
+    top: 0;
+    left: 0;
+}
+
+.testimonial blockquote::after {
+    content: '\201D';
+    bottom: 0;
+    right: 0;
+}
+
+.testimonial-author p {
+    color: #fff;
+    font-weight: 17px;
+}
+
+.testimonial-author p strong {
+    display: block;
+    margin-bottom: 10px;
 }
