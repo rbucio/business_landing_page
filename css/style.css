@@ -36,7 +36,7 @@ p {
 }
 
 .nextek-navbar {
-    background: rgba(0, 0, 0, .7);
+    background: rgba(0, 0, 0, .8);
 }
 
 .nextek-nav-wrapper {
@@ -171,6 +171,7 @@ p {
     right: 20px;
     border-radius: 0;
     display: none;
+    z-index: 1;
 }
 
 /*==============================================================
@@ -242,7 +243,7 @@ p {
 
 .service-item-description p {
     margin: 0;
-    padding-left: 85px;
+    padding-left: 100px;
 }
 
 /*==============================================================
@@ -360,10 +361,6 @@ h4.team-member-designation {
 
 .icon-gray:hover {
     color: #34c6d3;
-}
-
-.owl-carousel .owl-item img {
-    height: 380px;
 }
 
 /*==============================================================
@@ -524,7 +521,7 @@ ul.pricing-specs li p {
 
 footer {
     background-color: #41464b;
-    padding: 50px;
+    padding: 50px 0;
 }
 
 #contact h3 {
