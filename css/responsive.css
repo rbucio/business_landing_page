@@ -15,7 +15,6 @@
     .navbar-nav li a {
         padding: 10px;
     }
-
 }
 
 /* Small Devices ( Portrait Tablets & Small Desktop ) */
@@ -23,7 +22,7 @@
 
     .navbar {
         margin: 0;
-        padding: 10px 0;
+        padding: 0;
     }
     .navbar-nav {
         float: left;
@@ -55,7 +54,7 @@
     /* header nav menu */
     .navbar {
         margin: 0;
-        padding: 10px 0;
+        padding: 0;
     }
     .navbar-nav {
         float: left;
