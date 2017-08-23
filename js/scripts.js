@@ -28,4 +28,15 @@ $(document).ready(function() {
         loop: true,
         autoplayHoverPause: true
     });
+
+    //smooth scrolling
+    $('a.smooth-scroll').click( function(e){
+        e.preventDefault();
+        var section = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 55
+        }, 1200);
+    });
+
+
 });
