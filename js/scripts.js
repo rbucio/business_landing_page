@@ -38,5 +38,14 @@ $(document).ready(function() {
         }, 1200);
     });
 
+    //hide show back to top button
+    $(window).scroll(function(){
+        if ($(this).scrollTop() < 250) {
+            //hide button
+            $('#back-to-top').fadeOut();
+        } else {
+            $('#back-to-top').fadeIn();
+        }
+    })
 
 });

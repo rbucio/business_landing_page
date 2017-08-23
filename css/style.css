@@ -65,7 +65,7 @@ p {
     font-size: 36px;
     font-weight: 700;
     color: #fff !important;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .navbar-toggle {
@@ -163,6 +163,14 @@ p {
 .btn-blue:focus {
     background-color: #34c6d3;
     color: #fff;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 0;
+    display: none;
 }
 
 /*==============================================================
